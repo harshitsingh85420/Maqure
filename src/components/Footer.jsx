@@ -1,227 +1,90 @@
 import React from 'react'
 import './CSS/Footer.css';
-
+import { Container,Row,Col,Figure } from 'react-bootstrap';
 
 function Footer() {
   return (
-    <>
-<div className="footer">
-<div className="footer-category">
+   <div className="bg-dark text-white p-md-5">
+      <Container className='mt-md-5' >
+  <Row>
+    <Col className="m-0 p-0">
+    <h6 style={{color:"#175DA8"}}>JOB SEEKERS</h6>
+    <div className='pl-0'>
+    <Row><a href='#'>Job Search</a></Row>
+    <Row><a href='#'>Job Seekers Login</a></Row>
+    <Row><a href='#'>Upload Resume</a></Row>
+    <Row><a href='#'>Career Advice</a></Row>
+    <Row><a href='#'>Search Tips</a></Row>
+    <Row><a href='#'>Free Job Alert</a></Row>
+    <Row><a href='#'>Find Companies</a></Row>
+    <Row><a href='#'>Help</a></Row>
+    </div>
+    </Col>
 
-<div className="container">
+    <Col className="m-0 p-0">
+    <h6 style={{color:"#175DA8"}}>EMPLOYERS</h6>
+    <div className='pl-2'>
+    <Row><a href='#'>Employers Login</a></Row>
+    <Row><a href='#'>Job Posting</a></Row>
+    <Row><a href='#'>Access Resume Database</a></Row>
+    <Row><a href='#'>Join M recruiters</a></Row>
+    <Row><a href='#'>Research Report</a></Row>
+    <Row><a href='#'>Buy Online</a></Row>
+    </div>
+    </Col>
 
-  <h2 className="footer-category-title">Directory</h2>
+    <Col className="m-0 p-0">
+    <h6 style={{color:"#175DA8"}}>MAQURE</h6>
+    <div className='pl-2'>
+    <Row><a href='#'>About Us</a></Row>
+    <Row><a href='#'>Contact Us</a></Row>
+    <Row><a href='#'>Career With Us</a></Row>
+    <Row><a href='#'>Send Feedback</a></Row>
+    <Row><a href='#'>Testimonials</a></Row>
+    <Row><a href='#'>Html Sitemap</a></Row>
+    <Row><a href='#'>xml Sitemap</a></Row>
+    <Row><a href='#'>Job Apps</a></Row>
+    </div>
+    </Col>
 
-  <div className="footer-category-box">
+    <Col className="m-0 p-0">
+    <h6 style={{color:"#175DA8"}}>STAY CONNECTED</h6>
+    <div className='pl-2'>
+    <Row><a href='#'>Security & Fraud</a></Row>
+    <Row><a href='#'>Privacy Policy</a></Row>
+    <Row><a href='#'>Term of Use</a></Row>
+    <Row><a href='#'>Be Safe</a></Row>
+    <Row><a href='#'>Complaints</a></Row>
+    <Row><div className=''><a><Figure.Image
+    width={100}
+    height={50}
+    alt="171x180"
+    src="holder.js/171x180"
+  /></a></div></Row>
+   <Row><div className=''><a><Figure.Image
+    width={100}
+    height={50}
+    alt="171x180"
+    src="holder.js/171x180"
+  /></a></div></Row>
+    </div>
+    </Col>
 
-    <h3 className="category-box-title">Texttle:</h3>
+    <Col className="m-0 p-0">
+    <h6 style={{color:"#175DA8"}}>LEGAL</h6>
+    <div className='pl-2'>
+    <Row><a href='#'>Facebook</a></Row>
+    <Row><a href='#'>Twitter</a></Row>
+    <Row><a href='#'>Linkedin</a></Row>
+    <Row><a href='#'>Instagram</a></Row>
+    <Row><a href='#'>Youtube</a></Row>
+        </div>
+    </Col>
+  </Row>
+  </Container>
+   </div>
 
-    <a href="#" className="footer-category-link">Yarn</a>
-    <a href="#" className="footer-category-link">Silk</a>
-    <a href="#" className="footer-category-link">Cotton</a>
-    <a href="#" className="footer-category-link">Wool</a>
-    <a href="#" className="footer-category-link">Nylon</a>
-  </div>
 
-  <div className="footer-category-box">
-    <h3 className="category-box-title">Dyes :</h3>
-  
-    <a href="#" className="footer-category-link">Acid Dyes</a>
-    <a href="#" className="footer-category-link">Nylon Dyes</a>
-    <a href="#" className="footer-category-link">Indigo</a>
-    <a href="#" className="footer-category-link">Natural Dyes</a>
-    <a href="#" className="footer-category-link">Disperse Dyes</a>
-    <a href="#" className="footer-category-link"></a> 
-  </div>
-
-  
-</div>
-
-</div>
-
-<div className="footer-nav">
-
-<div className="container">
-
-  
-  <ul className="footer-nav-list">
-  
-    <li className="footer-nav-item">
-      <h2 className="nav-title">Products</h2>
-    </li>
-  
-    <li className="footer-nav-item">
-      <a href="#" className="footer-nav-link">Prices drop</a>
-    </li>
-  
-    <li className="footer-nav-item">
-      <a href="#" className="footer-nav-link">New products</a>
-    </li>
-  
-    <li className="footer-nav-item">
-      <a href="#" className="footer-nav-link">Best sales</a>
-    </li>
-  
-    <li className="footer-nav-item">
-      <a href="#" className="footer-nav-link">Contact us</a>
-    </li>
-  
-    <li className="footer-nav-item">
-      <a href="#" className="footer-nav-link">Sitemap</a>
-    </li>
-  
-  </ul>
-
-  <ul className="footer-nav-list">
-  
-    <li className="footer-nav-item">
-      <h2 className="nav-title">Our Company</h2>
-    </li>
-  
-    <li className="footer-nav-item">
-      <a href="#" className="footer-nav-link">Delivery</a>
-    </li>
-  
-    <li className="footer-nav-item">
-      <a href="#" className="footer-nav-link">Legal Notice</a>
-    </li>
-  
-    <li className="footer-nav-item">
-      <a href="#" className="footer-nav-link">Terms and conditions</a>
-    </li>
-  
-    <li className="footer-nav-item">
-      <a href="#" className="footer-nav-link">About us</a>
-    </li>
-  
-    <li className="footer-nav-item">
-      <a href="#" className="footer-nav-link">Secure payment</a>
-    </li>
-  
-  </ul>
-
-  <ul className="footer-nav-list">
-  
-    <li className="footer-nav-item">
-      <h2 className="nav-title">Services</h2>
-    </li>
-  
-    <li className="footer-nav-item">
-      <a href="#" className="footer-nav-link">Prices drop</a>
-    </li>
-  
-    <li className="footer-nav-item">
-      <a href="#" className="footer-nav-link">New products</a>
-    </li>
-  
-    <li className="footer-nav-item">
-      <a href="#" className="footer-nav-link">Best sales</a>
-    </li>
-  
-    <li className="footer-nav-item">
-      <a href="#" className="footer-nav-link">Contact us</a>
-    </li>
-  
-    <li className="footer-nav-item">
-      <a href="#" className="footer-nav-link">Sitemap</a>
-    </li>
-  
-  </ul>
-
-  <ul className="footer-nav-list">
-
-    <li className="footer-nav-item">
-      <h2 className="nav-title">Contact</h2>
-    </li>
-
-    <li className="footer-nav-item flex">
-      <div className="icon-box">
-        <ion-icon name="location-outline"></ion-icon>
-      </div>
-
-      <address className="content">
-        270, Cauvery, IIT-Madras,
-        Chennai, Tamil-Nadu,
-        600036
-
-      </address>
-    </li>
-
-    <li className="footer-nav-item flex">
-      <div className="icon-box">
-        <ion-icon name="call-outline"></ion-icon>
-      </div>
-
-      <a href="tel:+607936-8058" className="footer-nav-link">+91 9772195021</a>
-    </li>
-
-    <li className="footer-nav-item flex">
-      <div className="icon-box">
-        <ion-icon name="mail-outline"></ion-icon>
-      </div>
-
-      <a href="mailto:example@gmail.com" className="footer-nav-link">maqure@gmail.com</a>
-    </li>
-
-  </ul>
-
-  <ul className="footer-nav-list">
-
-    <li className="footer-nav-item">
-      <h2 className="nav-title">Follow Us</h2>
-    </li>
-
-    <li>
-      <ul className="social-link">
-
-        <li className="footer-nav-item">
-          <a href="#" className="footer-nav-link">
-            <ion-icon name="logo-facebook"></ion-icon>
-          </a>
-        </li>
-
-        <li className="footer-nav-item">
-          <a href="#" className="footer-nav-link">
-            <ion-icon name="logo-twitter"></ion-icon>
-          </a>
-        </li>
-
-        <li className="footer-nav-item">
-          <a href="#" className="footer-nav-link">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-        </li>
-
-        <li className="footer-nav-item">
-          <a href="#" className="footer-nav-link">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-        </li>
-
-      </ul>
-    </li>
-
-  </ul>
-
-</div>
-
-</div>
-
-<div className="footer-bottom">
-
-<div className="container">
-
-  <img src="/Images/payment.png" alt="payment method" className="payment-img"/>
-
-  <p className="copyright">
-    Copyright &copy; <a href="#">Maqure</a> all rights reserved.
-  </p>
-
-</div>
-
-</div>
-</div>
-    </>
   )
 }
 

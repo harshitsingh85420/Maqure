@@ -1,0 +1,20 @@
+.banner img{
+    height: 620px !important;
+}
+.carousel-caption {
+    top: 100px;
+    bottom: auto;
+    font: normal normal bold 75px/88px SansSerif;
+    text-align: left;
+font: normal normal bold 75px/88px SansSerif;
+font-size: bold;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+
+}
+.primary{
+    border-radius: 50px 50px 50px 50px;
+    font : Segoe UI;
+    font-size: bold;
+}

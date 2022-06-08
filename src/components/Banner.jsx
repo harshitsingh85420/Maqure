@@ -1,41 +1,88 @@
 import React from 'react'
-
+import {Carousel,Button} from 'react-bootstrap'
+import "./CSS/Banner.css"
 function Banner() {
   return (
-    <div class="banner">
+    <Carousel className="banner">
+    <Carousel.Item>
+  
+      <Carousel.Caption>
+        <h1>India's largest marketplace for speciality chemicals and dye intermediates</h1>
+        <p className='my-4'>For the first time ever, you can search company samples quote and purchase products from any supplier-<b>all in one place</b></p>
 
-    <div class="container">
+        <div className="text-center my-md-5"> <Button className="primary my-md-5" size="lg">
+        <b>Get Best Quotes</b>
+    </Button>{' '}</div>
+      </Carousel.Caption>
+      <img
+        className="d-block w-100"
+        src="/Images/banner1.jpg"
+        alt="First slide"
+      />
+    </Carousel.Item>
+    <Carousel.Item>
+      <img
+        className="d-block w-100"
+        src="/Images/banner2.jpg"
+        alt="Second slide"
+      />
+       <Carousel.Caption>
+        <h1>India's largest marketplace for speciality chemicals and dye intermediates</h1>
+        <p className='my-4'>For the first time ever, you can search company samples quote and purchase products from any supplier-<b>all in one place</b></p>
+        <div className="text-center my-md-5"> <Button className="primary my-md-5 " size="lg">
+        <b>Get Best Quotes</b>
+    </Button>{' '}</div>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <img
+        className="d-block w-100"
+        src="/Images/banner3.jpg"
+        alt="Third slide"
+      />
+  
+  <Carousel.Caption>
+        <h1>India's largest marketplace for speciality chemicals and dye intermediates</h1>
+        <p className='my-4'>For the first time ever, you can search company samples quote and purchase products from any supplier-<b>all in one place</b></p>
+       <div className="text-center my-md-5"> <Button className="primary my-md-5 " size="lg">
+      <b>Get Best Quotes</b>
+    </Button>{' '}</div>
 
-      <div class="slider-container has-scrollbar">
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <img
+        className="d-block w-100"
+        src="/Images/banner4.jpg"
+        alt="Third slide"
+      />
+  
+  <Carousel.Caption>
+        <h1>India's largest marketplace for speciality chemicals and dye intermediates</h1>
+        <p className='my-4'>For the first time ever, you can search company samples quote and purchase products from any supplier-<b>all in one place</b></p>
+       <div className="text-center my-md-5"> <Button className="primary my-md-5 " size="lg">
+      <b>Get Best Quotes</b>
+    </Button>{' '}</div>
 
-        <div class="slider-item">
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <img
+        className="d-block w-100"
+        src="/Images/banner5.jpg"
+        alt="Third slide"
+      />
+  
+  <Carousel.Caption>
+        <h1>India's largest marketplace for speciality chemicals and dye intermediates</h1>
+        <p className='my-4'>For the first time ever, you can search company samples quote and purchase products from any supplier-<b>all in one place</b></p>
+       <div className="text-center my-md-5"> <Button className="primary my-md-5 " size="lg">
+      <b>Get Best Quotes</b>
+    </Button>{' '}</div>
 
-          <img src="/Images/banner-1.jpg" alt="women's latest fashion sale" class="banner-img1" id="temp1"/>
-
-         
-
-        </div>
-
-        <div class="slider-item">
-
-          <img src="/Images/banner-22.png" alt="modern sunglasses" class="banner-img2" id="temp2"/>
-
-          
-        </div>
-
-        <div class="slider-item" >
-
-          <img src="/Images/banner-333.jpg" alt="new fashion summer sale" class="banner-img3" id="temp3"/>
-
-          
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
+      </Carousel.Caption>
+    </Carousel.Item>
+  </Carousel>
 
   )
 }
