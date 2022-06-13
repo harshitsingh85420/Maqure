@@ -1,4 +1,5 @@
 import { BrowserRouter,Route,Routes } from "react-router-dom";
+import React from 'react';
 import "./App.css";
 //import CartHeader from "./components/CartHeader";
 
@@ -6,8 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import ProductList from "./pages/ProductList";
 // import { BrowserRouter, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Cart from "./pages/Cart";
-import ProductList from "./pages/ProductList";
+
 // import Cart from "./pages/Cart";
 // import CartHeader from "./components/CartHeader"
 

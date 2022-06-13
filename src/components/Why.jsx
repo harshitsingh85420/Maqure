@@ -1,5 +1,5 @@
-import React from 'react'
-import './CSS/why.css'
+import React from 'react';
+import './CSS/why.css';
 
 const Why = () => {
   return (
@@ -84,4 +84,4 @@ const Why = () => {
   )
 }
 
-export default Why
+export default Why;

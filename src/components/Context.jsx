@@ -1,6 +1,7 @@
 import { createContext, useContext, useReducer } from "react";
 import faker from "faker";
 import { cartReducer, productReducer } from "./Reducers";
+import React from "react";
 
 const Cart = createContext();
 faker.seed(99);

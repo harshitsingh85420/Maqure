@@ -1,0 +1,18 @@
+.header-main { padding: 10px 0; }
+
+.header-main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+  .header-main .container { gap: 80px; }
+  
+    
+  .header-main {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--cultured);
+  }
+
+  .container { padding: 0px 10px; }
