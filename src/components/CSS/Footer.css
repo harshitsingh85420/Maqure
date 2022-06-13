@@ -1,12 +1,23 @@
 *{
-  font: normal normal normal 20px/22px Segoe UI;
-
+  font: normal normal normal  Segoe UI;
+  font-size: 16px;
 }
 h6{
-  font: normal normal normal 25px/33px Segoe UI;
+  font: normal normal normal Segoe UI;
+  font-size: 20px;
 }
 a{
   text-decoration: none;
   color: white;
   padding: 10px 20px ;
+}
+
+.footer-img {
+  width: 130px;
+  height: 61px;
+  padding-left: 0px;
+}
+
+.image {
+  padding-left: 0px;
 }

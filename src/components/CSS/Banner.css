@@ -9,12 +9,22 @@
 font: normal normal bold 75px/88px SansSerif;
 font-size: bold;
 letter-spacing: 0px;
-color: #FFFFFF;
+color: rgb(170, 170, 170);
 opacity: 1;
-
+font-weight: bold;
 }
 .primary{
     border-radius: 50px 50px 50px 50px;
     font : Segoe UI;
     font-size: bold;
+}
+
+.banner {
+    margin: 0px;
+    padding: 0px;
+}
+
+.my-4 {
+    font-size: 20px;
+    color: rgb(170, 170, 170);
 }

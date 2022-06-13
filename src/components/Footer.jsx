@@ -55,18 +55,19 @@ function Footer() {
     <Row><a href='#'>Term of Use</a></Row>
     <Row><a href='#'>Be Safe</a></Row>
     <Row><a href='#'>Complaints</a></Row>
-    <Row><div className=''><a><Figure.Image
+    <Row><div className='image'><a href="#">
+      <img src="Images/googleplay.png" class="footer-img"/>{/*<Figure.Image
     width={100}
     height={50}
     alt="171x180"
     src="holder.js/171x180"
-  /></a></div></Row>
-   <Row><div className=''><a><Figure.Image
+  />*/}</a></div></Row>
+   <Row><div className='image'><a href="#"><img src="Images/Appstore.png" class="footer-img"/>{/*<Figure.Image
     width={100}
     height={50}
     alt="171x180"
     src="holder.js/171x180"
-  /></a></div></Row>
+/>*/}</a></div></Row>
     </div>
     </Col>
 

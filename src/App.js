@@ -1,6 +1,6 @@
 import { BrowserRouter,Route,Routes } from "react-router-dom";
 import "./App.css";
-import CartHeader from "./components/CartHeader";
+//import CartHeader from "./components/CartHeader";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import ProductList from "./pages/ProductList";
@@ -17,8 +17,8 @@ function App() {
      <div>
      <Routes>
      <Route path='/' exact  element={<Home/>} />
-     <Route path='/productlist' exact  element={<ProductList/>} />
-     <Route path='/cart' exact  element={<Cart/>} />
+     {/*<Route path='/productlist' exact  element={<ProductList/>} />
+     <Route path='/cart' exact  element={<Cart/>} />*/}
      </Routes>
      </div>
  </BrowserRouter>
