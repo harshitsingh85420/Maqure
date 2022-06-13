@@ -1,4 +1,4 @@
-import { FaShoppingCart } from "react-icons/fa";
+/*import { FaShoppingCart } from "react-icons/fa";
 import { AiFillDelete } from "react-icons/ai";
 import {
   Badge,
@@ -93,4 +93,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header;*/
